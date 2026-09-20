@@ -1,0 +1,32 @@
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/*
+!.streamlit/secrets.toml.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+
+# FAISS / cache artifacts
+*.index
+*.faiss
+*.pkl
+.cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
